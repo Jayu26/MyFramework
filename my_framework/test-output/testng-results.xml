@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+    <line>
+      <![CDATA[Browser is going to up & app will be started]]>
+    </line>
+    <line>
+      <![CDATA[Browser is up & app has started]]>
+    </line>
+    <line>
+      <![CDATA[Going to capture & attach screenshot in report]]>
+    </line>
+    <line>
+      <![CDATA[Screenshot is captured & attached]]>
+    </line>
+    <line>
+      <![CDATA[Browser is going to close]]>
+    </line>
+    <line>
+      <![CDATA[Browser has closed]]>
+    </line>
+  </reporter-output>
+  <suite name="Suite" duration-ms="19591" started-at="2021-01-09T13:52:57Z" finished-at="2021-01-09T13:53:17Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="19591" started-at="2021-01-09T13:52:57Z" finished-at="2021-01-09T13:53:17Z">
+      <class name="com.learnautomation.testcases.LoginTest">
+        <test-method status="PASS" signature="setupSuite()[pri:0, instance:com.learnautomation.testcases.LoginTest@5c7fa833]" name="setupSuite" is-config="true" duration-ms="884" started-at="2021-01-09T19:22:57Z" finished-at="2021-01-09T19:22:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupSuite -->
+        <test-method status="PASS" signature="setup()[pri:0, instance:com.learnautomation.testcases.LoginTest@5c7fa833]" name="setup" is-config="true" duration-ms="7053" started-at="2021-01-09T19:22:57Z" finished-at="2021-01-09T19:23:04Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is going to up & app will be started]]>
+            </line>
+            <line>
+              <![CDATA[Browser is up & app has started]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="startApp()[pri:0, instance:com.learnautomation.testcases.LoginTest@5c7fa833]" name="startApp" duration-ms="10664" started-at="2021-01-09T19:23:05Z" finished-at="2021-01-09T19:23:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApp -->
+        <test-method status="PASS" signature="tearDownMethod(org.testng.ITestResult)[pri:0, instance:com.learnautomation.testcases.LoginTest@5c7fa833]" name="tearDownMethod" is-config="true" duration-ms="1023" started-at="2021-01-09T19:23:15Z" finished-at="2021-01-09T19:23:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=startApp status=SUCCESS method=LoginTest.startApp()[pri:0, instance:com.learnautomation.testcases.LoginTest@5c7fa833] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Going to capture & attach screenshot in report]]>
+            </line>
+            <line>
+              <![CDATA[Screenshot is captured & attached]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDownMethod -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.learnautomation.testcases.LoginTest@5c7fa833]" name="tearDown" is-config="true" duration-ms="818" started-at="2021-01-09T19:23:16Z" finished-at="2021-01-09T19:23:17Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is going to close]]>
+            </line>
+            <line>
+              <![CDATA[Browser has closed]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.learnautomation.testcases.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
