@@ -23,11 +23,6 @@ public class LoginTest extends BaseClass
 		
 		login.loginFB(excel.getStringData(0, 0, 0), excel.getStringData("Login", 0, 1)); // e.g of Abstraction i.e. code for login is hidden
 		logger.pass("Login Successful"); 
-		
-		
-		
-		
-		
 	}
 	
 	
