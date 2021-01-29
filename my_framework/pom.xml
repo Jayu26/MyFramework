@@ -14,7 +14,7 @@
 				<plugin>
 					<groupId>org.apache.maven.plugins</groupId>
 					<artifactId>maven-compiler-plugin</artifactId>
-					<version>3.8.1</version>
+					<version>3.5.1</version><!--3.8.1 / 3.5.1  -->
 					<configuration>
 						<source>1.8</source>
 						<target>1.8</target>
@@ -31,8 +31,12 @@
 					<version>3.0.0-M5</version>
 					<configuration>
 						<suiteXmlFiles>
-							<suiteXmlFile>testng.xml</suiteXmlFile> <!--Here we have to provide the path of XML Files folder. We can also rename testng.xml file.-->
+							<suiteXmlFile>XMLFiles/${xmlFiles}</suiteXmlFile> <!--Here we have to provide the path of XML Files folder. We can also rename testng.xml file.-->
 						</suiteXmlFiles>
+						<systemPropertyVariables>						
+							<executionBrowser>${browser}</executionBrowser>
+							<appURL>${appURL}</appURL>
+						</systemPropertyVariables> 
 					</configuration>
 				</plugin>
 
@@ -56,6 +60,13 @@
 			<version>6.10</version>
 			<scope>test</scope>
 		</dependency>
+<!-- https://mvnrepository.com/artifact/io.rest-assured/rest-assured -->
+<dependency>
+    <groupId>io.rest-assured</groupId>
+    <artifactId>rest-assured</artifactId>
+    <version>4.2.0</version>
+    <scope>test</scope>
+</dependency>
 
 		<!-- https://mvnrepository.com/artifact/com.aventstack/extentreports -->
 		<dependency>
@@ -77,6 +88,13 @@
 			<artifactId>poi-ooxml</artifactId>
 			<version>3.17</version>
 		</dependency>
+
+<!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
+<dependency>
+    <groupId>com.googlecode.json-simple</groupId>
+    <artifactId>json-simple</artifactId>
+    <version>1.1.1</version>
+</dependency>
 
 
 
